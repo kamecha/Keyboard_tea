@@ -1,0 +1,2031 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kbd:ProMicro_r U1
+U 1 1 606FCAC5
+P 2100 1750
+F 0 "U1" H 2150 2737 60  0000 C CNN
+F 1 "ProMicro_r" H 2150 2631 60  0000 C CNN
+F 2 "kbd:ProMicro_v3" H 2250 700 60  0001 C CNN
+F 3 "" H 2250 700 60  0000 C CNN
+	1    2100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 SW1
+U 1 1 607008E1
+P 2150 2950
+F 0 "SW1" H 2150 3217 50  0000 C CNN
+F 1 "SW_DIP_x01" H 2150 3126 50  0000 C CNN
+F 2 "kbd:ResetSW_1side" H 2150 2950 50  0001 C CNN
+F 3 "~" H 2150 2950 50  0001 C CNN
+	1    2150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 60701A76
+P 5100 1500
+F 0 "D1" H 5100 1717 50  0000 C CNN
+F 1 "1N4148" H 5100 1626 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5100 1325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 1500 50  0001 C CNN
+	1    5100 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW2
+U 1 1 6070D525
+P 4800 1350
+F 0 "SW2" H 4800 1605 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 1514 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 1350 50  0001 C CNN
+F 3 "" H 4800 1350 50  0000 C CNN
+	1    4800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 6077C5D2
+P 5100 2050
+F 0 "D2" H 5100 2267 50  0000 C CNN
+F 1 "1N4148" H 5100 2176 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5100 1875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 2050 50  0001 C CNN
+	1    5100 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW3
+U 1 1 6077C5D8
+P 4800 1900
+F 0 "SW3" H 4800 2155 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 2064 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 1900 50  0001 C CNN
+F 3 "" H 4800 1900 50  0000 C CNN
+	1    4800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 6077E812
+P 5900 1500
+F 0 "D9" H 5900 1717 50  0000 C CNN
+F 1 "1N4148" H 5900 1626 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5900 1325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5900 1500 50  0001 C CNN
+	1    5900 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW10
+U 1 1 6077E818
+P 5600 1350
+F 0 "SW10" H 5600 1605 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 1514 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5600 1350 50  0001 C CNN
+F 3 "" H 5600 1350 50  0000 C CNN
+	1    5600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 60780320
+P 5900 2050
+F 0 "D10" H 5900 2267 50  0000 C CNN
+F 1 "1N4148" H 5900 2176 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5900 1875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5900 2050 50  0001 C CNN
+	1    5900 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW11
+U 1 1 60780326
+P 5600 1900
+F 0 "SW11" H 5600 2155 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 2064 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5600 1900 50  0001 C CNN
+F 3 "" H 5600 1900 50  0000 C CNN
+	1    5600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D17
+U 1 1 60796D72
+P 6700 1500
+F 0 "D17" H 6700 1717 50  0000 C CNN
+F 1 "1N4148" H 6700 1626 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 6700 1325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6700 1500 50  0001 C CNN
+	1    6700 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW18
+U 1 1 60796D78
+P 6400 1350
+F 0 "SW18" H 6400 1605 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 1514 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6400 1350 50  0001 C CNN
+F 3 "" H 6400 1350 50  0000 C CNN
+	1    6400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D18
+U 1 1 60796D7E
+P 6700 2050
+F 0 "D18" H 6700 2267 50  0000 C CNN
+F 1 "1N4148" H 6700 2176 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 6700 1875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6700 2050 50  0001 C CNN
+	1    6700 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW19
+U 1 1 60796D84
+P 6400 1900
+F 0 "SW19" H 6400 2155 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 2064 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6400 1900 50  0001 C CNN
+F 3 "" H 6400 1900 50  0000 C CNN
+	1    6400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D25
+U 1 1 60796D8A
+P 7500 1500
+F 0 "D25" H 7500 1717 50  0000 C CNN
+F 1 "1N4148" H 7500 1626 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 7500 1325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 1500 50  0001 C CNN
+	1    7500 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW26
+U 1 1 60796D90
+P 7200 1350
+F 0 "SW26" H 7200 1605 50  0000 C CNN
+F 1 "SW_PUSH" H 7200 1514 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7200 1350 50  0001 C CNN
+F 3 "" H 7200 1350 50  0000 C CNN
+	1    7200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D26
+U 1 1 60796D96
+P 7500 2050
+F 0 "D26" H 7500 2267 50  0000 C CNN
+F 1 "1N4148" H 7500 2176 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 7500 1875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 2050 50  0001 C CNN
+	1    7500 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW27
+U 1 1 60796D9C
+P 7200 1900
+F 0 "SW27" H 7200 2155 50  0000 C CNN
+F 1 "SW_PUSH" H 7200 2064 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7200 1900 50  0001 C CNN
+F 3 "" H 7200 1900 50  0000 C CNN
+	1    7200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D33
+U 1 1 607BB3C6
+P 8300 1500
+F 0 "D33" H 8300 1717 50  0000 C CNN
+F 1 "1N4148" H 8300 1626 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 8300 1325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 1500 50  0001 C CNN
+	1    8300 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW34
+U 1 1 607BB3CC
+P 8000 1350
+F 0 "SW34" H 8000 1605 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 1514 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8000 1350 50  0001 C CNN
+F 3 "" H 8000 1350 50  0000 C CNN
+	1    8000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D34
+U 1 1 607BB3D2
+P 8300 2050
+F 0 "D34" H 8300 2267 50  0000 C CNN
+F 1 "1N4148" H 8300 2176 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 8300 1875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 2050 50  0001 C CNN
+	1    8300 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW35
+U 1 1 607BB3D8
+P 8000 1900
+F 0 "SW35" H 8000 2155 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 2064 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8000 1900 50  0001 C CNN
+F 3 "" H 8000 1900 50  0000 C CNN
+	1    8000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D41
+U 1 1 607BB3DE
+P 9100 1500
+F 0 "D41" H 9100 1717 50  0000 C CNN
+F 1 "1N4148" H 9100 1626 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9100 1325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9100 1500 50  0001 C CNN
+	1    9100 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW42
+U 1 1 607BB3E4
+P 8800 1350
+F 0 "SW42" H 8800 1605 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 1514 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8800 1350 50  0001 C CNN
+F 3 "" H 8800 1350 50  0000 C CNN
+	1    8800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D42
+U 1 1 607BB3EA
+P 9100 2050
+F 0 "D42" H 9100 2267 50  0000 C CNN
+F 1 "1N4148" H 9100 2176 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9100 1875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9100 2050 50  0001 C CNN
+	1    9100 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW43
+U 1 1 607BB3F0
+P 8800 1900
+F 0 "SW43" H 8800 2155 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 2064 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8800 1900 50  0001 C CNN
+F 3 "" H 8800 1900 50  0000 C CNN
+	1    8800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D49
+U 1 1 607BB3F6
+P 9900 1500
+F 0 "D49" H 9900 1717 50  0000 C CNN
+F 1 "1N4148" H 9900 1626 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9900 1325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9900 1500 50  0001 C CNN
+	1    9900 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW50
+U 1 1 607BB3FC
+P 9600 1350
+F 0 "SW50" H 9600 1605 50  0000 C CNN
+F 1 "SW_PUSH" H 9600 1514 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9600 1350 50  0001 C CNN
+F 3 "" H 9600 1350 50  0000 C CNN
+	1    9600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D50
+U 1 1 607BB402
+P 9900 2050
+F 0 "D50" H 9900 2267 50  0000 C CNN
+F 1 "1N4148" H 9900 2176 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9900 1875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9900 2050 50  0001 C CNN
+	1    9900 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW51
+U 1 1 607BB408
+P 9600 1900
+F 0 "SW51" H 9600 2155 50  0000 C CNN
+F 1 "SW_PUSH" H 9600 2064 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB" H 9600 1900 50  0001 C CNN
+F 3 "" H 9600 1900 50  0000 C CNN
+	1    9600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D57
+U 1 1 607BB40E
+P 10700 1500
+F 0 "D57" H 10700 1717 50  0000 C CNN
+F 1 "1N4148" H 10700 1626 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 10700 1325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 1500 50  0001 C CNN
+	1    10700 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW58
+U 1 1 607BB414
+P 10400 1350
+F 0 "SW58" H 10400 1605 50  0000 C CNN
+F 1 "SW_PUSH" H 10400 1514 50  0000 C CNN
+F 2 "tea:SW_Cherry_MX_3.00u_PCB" H 10400 1350 50  0001 C CNN
+F 3 "" H 10400 1350 50  0000 C CNN
+	1    10400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D58
+U 1 1 607BB41A
+P 10700 2050
+F 0 "D58" H 10700 2267 50  0000 C CNN
+F 1 "1N4148" H 10700 2176 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 10700 1875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 2050 50  0001 C CNN
+	1    10700 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW59
+U 1 1 607BB420
+P 10400 1900
+F 0 "SW59" H 10400 2155 50  0000 C CNN
+F 1 "SW_PUSH" H 10400 2064 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 10400 1900 50  0001 C CNN
+F 3 "" H 10400 1900 50  0000 C CNN
+	1    10400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 608309BC
+P 5100 2600
+F 0 "D3" H 5100 2817 50  0000 C CNN
+F 1 "1N4148" H 5100 2726 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5100 2425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 2600 50  0001 C CNN
+	1    5100 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW4
+U 1 1 608309C2
+P 4800 2450
+F 0 "SW4" H 4800 2705 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 2614 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 2450 50  0001 C CNN
+F 3 "" H 4800 2450 50  0000 C CNN
+	1    4800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 608309C8
+P 5100 3150
+F 0 "D4" H 5100 3367 50  0000 C CNN
+F 1 "1N4148" H 5100 3276 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5100 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 3150 50  0001 C CNN
+	1    5100 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW5
+U 1 1 608309CE
+P 4800 3000
+F 0 "SW5" H 4800 3255 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 3164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 3000 50  0001 C CNN
+F 3 "" H 4800 3000 50  0000 C CNN
+	1    4800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D11
+U 1 1 608309D4
+P 5900 2600
+F 0 "D11" H 5900 2817 50  0000 C CNN
+F 1 "1N4148" H 5900 2726 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5900 2425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5900 2600 50  0001 C CNN
+	1    5900 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW12
+U 1 1 608309DA
+P 5600 2450
+F 0 "SW12" H 5600 2705 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 2614 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5600 2450 50  0001 C CNN
+F 3 "" H 5600 2450 50  0000 C CNN
+	1    5600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 608309E0
+P 5900 3150
+F 0 "D12" H 5900 3367 50  0000 C CNN
+F 1 "1N4148" H 5900 3276 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5900 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5900 3150 50  0001 C CNN
+	1    5900 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW13
+U 1 1 608309E6
+P 5600 3000
+F 0 "SW13" H 5600 3255 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 3164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5600 3000 50  0001 C CNN
+F 3 "" H 5600 3000 50  0000 C CNN
+	1    5600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D19
+U 1 1 608309EC
+P 6700 2600
+F 0 "D19" H 6700 2817 50  0000 C CNN
+F 1 "1N4148" H 6700 2726 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 6700 2425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6700 2600 50  0001 C CNN
+	1    6700 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW20
+U 1 1 608309F2
+P 6400 2450
+F 0 "SW20" H 6400 2705 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 2614 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6400 2450 50  0001 C CNN
+F 3 "" H 6400 2450 50  0000 C CNN
+	1    6400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D20
+U 1 1 608309F8
+P 6700 3150
+F 0 "D20" H 6700 3367 50  0000 C CNN
+F 1 "1N4148" H 6700 3276 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 6700 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6700 3150 50  0001 C CNN
+	1    6700 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW21
+U 1 1 608309FE
+P 6400 3000
+F 0 "SW21" H 6400 3255 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 3164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6400 3000 50  0001 C CNN
+F 3 "" H 6400 3000 50  0000 C CNN
+	1    6400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D27
+U 1 1 60830A04
+P 7500 2600
+F 0 "D27" H 7500 2817 50  0000 C CNN
+F 1 "1N4148" H 7500 2726 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 7500 2425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 2600 50  0001 C CNN
+	1    7500 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW28
+U 1 1 60830A0A
+P 7200 2450
+F 0 "SW28" H 7200 2705 50  0000 C CNN
+F 1 "SW_PUSH" H 7200 2614 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7200 2450 50  0001 C CNN
+F 3 "" H 7200 2450 50  0000 C CNN
+	1    7200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D28
+U 1 1 60830A10
+P 7500 3150
+F 0 "D28" H 7500 3367 50  0000 C CNN
+F 1 "1N4148" H 7500 3276 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 7500 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 3150 50  0001 C CNN
+	1    7500 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW29
+U 1 1 60830A16
+P 7200 3000
+F 0 "SW29" H 7200 3255 50  0000 C CNN
+F 1 "SW_PUSH" H 7200 3164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7200 3000 50  0001 C CNN
+F 3 "" H 7200 3000 50  0000 C CNN
+	1    7200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D35
+U 1 1 60830A1C
+P 8300 2600
+F 0 "D35" H 8300 2817 50  0000 C CNN
+F 1 "1N4148" H 8300 2726 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 8300 2425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 2600 50  0001 C CNN
+	1    8300 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW36
+U 1 1 60830A22
+P 8000 2450
+F 0 "SW36" H 8000 2705 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 2614 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8000 2450 50  0001 C CNN
+F 3 "" H 8000 2450 50  0000 C CNN
+	1    8000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D36
+U 1 1 60830A28
+P 8300 3150
+F 0 "D36" H 8300 3367 50  0000 C CNN
+F 1 "1N4148" H 8300 3276 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 8300 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 3150 50  0001 C CNN
+	1    8300 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW37
+U 1 1 60830A2E
+P 8000 3000
+F 0 "SW37" H 8000 3255 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 3164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8000 3000 50  0001 C CNN
+F 3 "" H 8000 3000 50  0000 C CNN
+	1    8000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D43
+U 1 1 60830A34
+P 9100 2600
+F 0 "D43" H 9100 2817 50  0000 C CNN
+F 1 "1N4148" H 9100 2726 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9100 2425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9100 2600 50  0001 C CNN
+	1    9100 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW44
+U 1 1 60830A3A
+P 8800 2450
+F 0 "SW44" H 8800 2705 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 2614 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8800 2450 50  0001 C CNN
+F 3 "" H 8800 2450 50  0000 C CNN
+	1    8800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D44
+U 1 1 60830A40
+P 9100 3150
+F 0 "D44" H 9100 3367 50  0000 C CNN
+F 1 "1N4148" H 9100 3276 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9100 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9100 3150 50  0001 C CNN
+	1    9100 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW45
+U 1 1 60830A46
+P 8800 3000
+F 0 "SW45" H 8800 3255 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 3164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8800 3000 50  0001 C CNN
+F 3 "" H 8800 3000 50  0000 C CNN
+	1    8800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D51
+U 1 1 60830A4C
+P 9900 2600
+F 0 "D51" H 9900 2817 50  0000 C CNN
+F 1 "1N4148" H 9900 2726 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9900 2425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9900 2600 50  0001 C CNN
+	1    9900 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW52
+U 1 1 60830A52
+P 9600 2450
+F 0 "SW52" H 9600 2705 50  0000 C CNN
+F 1 "SW_PUSH" H 9600 2614 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB" H 9600 2450 50  0001 C CNN
+F 3 "" H 9600 2450 50  0000 C CNN
+	1    9600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D52
+U 1 1 60830A58
+P 9900 3150
+F 0 "D52" H 9900 3367 50  0000 C CNN
+F 1 "1N4148" H 9900 3276 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9900 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9900 3150 50  0001 C CNN
+	1    9900 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW53
+U 1 1 60830A5E
+P 9600 3000
+F 0 "SW53" H 9600 3255 50  0000 C CNN
+F 1 "SW_PUSH" H 9600 3164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.25u_PCB" H 9600 3000 50  0001 C CNN
+F 3 "" H 9600 3000 50  0000 C CNN
+	1    9600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D59
+U 1 1 60830A64
+P 10700 2600
+F 0 "D59" H 10700 2817 50  0000 C CNN
+F 1 "1N4148" H 10700 2726 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 10700 2425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 2600 50  0001 C CNN
+	1    10700 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW60
+U 1 1 60830A6A
+P 10400 2450
+F 0 "SW60" H 10400 2705 50  0000 C CNN
+F 1 "SW_PUSH" H 10400 2614 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 10400 2450 50  0001 C CNN
+F 3 "" H 10400 2450 50  0000 C CNN
+	1    10400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D60
+U 1 1 60830A70
+P 10700 3150
+F 0 "D60" H 10700 3367 50  0000 C CNN
+F 1 "1N4148" H 10700 3276 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 10700 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 3150 50  0001 C CNN
+	1    10700 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW61
+U 1 1 60830A76
+P 10400 3000
+F 0 "SW61" H 10400 3255 50  0000 C CNN
+F 1 "SW_PUSH" H 10400 3164 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 10400 3000 50  0001 C CNN
+F 3 "" H 10400 3000 50  0000 C CNN
+	1    10400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 60886002
+P 5100 3700
+F 0 "D5" H 5100 3917 50  0000 C CNN
+F 1 "1N4148" H 5100 3826 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5100 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 3700 50  0001 C CNN
+	1    5100 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW6
+U 1 1 60886008
+P 4800 3550
+F 0 "SW6" H 4800 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 3714 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 3550 50  0001 C CNN
+F 3 "" H 4800 3550 50  0000 C CNN
+	1    4800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 6088600E
+P 5100 4250
+F 0 "D6" H 5100 4467 50  0000 C CNN
+F 1 "1N4148" H 5100 4376 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5100 4075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 4250 50  0001 C CNN
+	1    5100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW7
+U 1 1 60886014
+P 4800 4100
+F 0 "SW7" H 4800 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 4264 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 4100 50  0001 C CNN
+F 3 "" H 4800 4100 50  0000 C CNN
+	1    4800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D13
+U 1 1 6088601A
+P 5900 3700
+F 0 "D13" H 5900 3917 50  0000 C CNN
+F 1 "1N4148" H 5900 3826 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5900 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5900 3700 50  0001 C CNN
+	1    5900 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW14
+U 1 1 60886020
+P 5600 3550
+F 0 "SW14" H 5600 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 3714 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5600 3550 50  0001 C CNN
+F 3 "" H 5600 3550 50  0000 C CNN
+	1    5600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D14
+U 1 1 60886026
+P 5900 4250
+F 0 "D14" H 5900 4467 50  0000 C CNN
+F 1 "1N4148" H 5900 4376 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5900 4075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5900 4250 50  0001 C CNN
+	1    5900 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW15
+U 1 1 6088602C
+P 5600 4100
+F 0 "SW15" H 5600 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 4264 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5600 4100 50  0001 C CNN
+F 3 "" H 5600 4100 50  0000 C CNN
+	1    5600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D21
+U 1 1 60886032
+P 6700 3700
+F 0 "D21" H 6700 3917 50  0000 C CNN
+F 1 "1N4148" H 6700 3826 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 6700 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6700 3700 50  0001 C CNN
+	1    6700 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW22
+U 1 1 60886038
+P 6400 3550
+F 0 "SW22" H 6400 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 3714 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6400 3550 50  0001 C CNN
+F 3 "" H 6400 3550 50  0000 C CNN
+	1    6400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D22
+U 1 1 6088603E
+P 6700 4250
+F 0 "D22" H 6700 4467 50  0000 C CNN
+F 1 "1N4148" H 6700 4376 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 6700 4075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6700 4250 50  0001 C CNN
+	1    6700 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW23
+U 1 1 60886044
+P 6400 4100
+F 0 "SW23" H 6400 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 4264 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6400 4100 50  0001 C CNN
+F 3 "" H 6400 4100 50  0000 C CNN
+	1    6400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D29
+U 1 1 6088604A
+P 7500 3700
+F 0 "D29" H 7500 3917 50  0000 C CNN
+F 1 "1N4148" H 7500 3826 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 7500 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 3700 50  0001 C CNN
+	1    7500 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW30
+U 1 1 60886050
+P 7200 3550
+F 0 "SW30" H 7200 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 7200 3714 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7200 3550 50  0001 C CNN
+F 3 "" H 7200 3550 50  0000 C CNN
+	1    7200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D30
+U 1 1 60886056
+P 7500 4250
+F 0 "D30" H 7500 4467 50  0000 C CNN
+F 1 "1N4148" H 7500 4376 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 7500 4075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 4250 50  0001 C CNN
+	1    7500 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW31
+U 1 1 6088605C
+P 7200 4100
+F 0 "SW31" H 7200 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 7200 4264 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7200 4100 50  0001 C CNN
+F 3 "" H 7200 4100 50  0000 C CNN
+	1    7200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D37
+U 1 1 60886062
+P 8300 3700
+F 0 "D37" H 8300 3917 50  0000 C CNN
+F 1 "1N4148" H 8300 3826 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 8300 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 3700 50  0001 C CNN
+	1    8300 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW38
+U 1 1 60886068
+P 8000 3550
+F 0 "SW38" H 8000 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 3714 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8000 3550 50  0001 C CNN
+F 3 "" H 8000 3550 50  0000 C CNN
+	1    8000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D38
+U 1 1 6088606E
+P 8300 4250
+F 0 "D38" H 8300 4467 50  0000 C CNN
+F 1 "1N4148" H 8300 4376 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 8300 4075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 4250 50  0001 C CNN
+	1    8300 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW39
+U 1 1 60886074
+P 8000 4100
+F 0 "SW39" H 8000 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 4264 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8000 4100 50  0001 C CNN
+F 3 "" H 8000 4100 50  0000 C CNN
+	1    8000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D45
+U 1 1 6088607A
+P 9100 3700
+F 0 "D45" H 9100 3917 50  0000 C CNN
+F 1 "1N4148" H 9100 3826 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9100 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9100 3700 50  0001 C CNN
+	1    9100 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW46
+U 1 1 60886080
+P 8800 3550
+F 0 "SW46" H 8800 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 3714 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8800 3550 50  0001 C CNN
+F 3 "" H 8800 3550 50  0000 C CNN
+	1    8800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D46
+U 1 1 60886086
+P 9100 4250
+F 0 "D46" H 9100 4467 50  0000 C CNN
+F 1 "1N4148" H 9100 4376 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9100 4075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9100 4250 50  0001 C CNN
+	1    9100 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW47
+U 1 1 6088608C
+P 8800 4100
+F 0 "SW47" H 8800 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 4264 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8800 4100 50  0001 C CNN
+F 3 "" H 8800 4100 50  0000 C CNN
+	1    8800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D53
+U 1 1 60886092
+P 9900 3700
+F 0 "D53" H 9900 3917 50  0000 C CNN
+F 1 "1N4148" H 9900 3826 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9900 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9900 3700 50  0001 C CNN
+	1    9900 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW54
+U 1 1 60886098
+P 9600 3550
+F 0 "SW54" H 9600 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 9600 3714 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB" H 9600 3550 50  0001 C CNN
+F 3 "" H 9600 3550 50  0000 C CNN
+	1    9600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D54
+U 1 1 6088609E
+P 9900 4250
+F 0 "D54" H 9900 4467 50  0000 C CNN
+F 1 "1N4148" H 9900 4376 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9900 4075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9900 4250 50  0001 C CNN
+	1    9900 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW55
+U 1 1 608860A4
+P 9600 4100
+F 0 "SW55" H 9600 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 9600 4264 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 9600 4100 50  0001 C CNN
+F 3 "" H 9600 4100 50  0000 C CNN
+	1    9600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D61
+U 1 1 608860AA
+P 10700 3700
+F 0 "D61" H 10700 3917 50  0000 C CNN
+F 1 "1N4148" H 10700 3826 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 10700 3525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 3700 50  0001 C CNN
+	1    10700 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW62
+U 1 1 608860B0
+P 10400 3550
+F 0 "SW62" H 10400 3805 50  0000 C CNN
+F 1 "SW_PUSH" H 10400 3714 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 10400 3550 50  0001 C CNN
+F 3 "" H 10400 3550 50  0000 C CNN
+	1    10400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D62
+U 1 1 608860B6
+P 10700 4250
+F 0 "D62" H 10700 4467 50  0000 C CNN
+F 1 "1N4148" H 10700 4376 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 10700 4075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 4250 50  0001 C CNN
+	1    10700 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW63
+U 1 1 608860BC
+P 10400 4100
+F 0 "SW63" H 10400 4355 50  0000 C CNN
+F 1 "SW_PUSH" H 10400 4264 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB" H 10400 4100 50  0001 C CNN
+F 3 "" H 10400 4100 50  0000 C CNN
+	1    10400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 608860C2
+P 5100 4800
+F 0 "D7" H 5100 5017 50  0000 C CNN
+F 1 "1N4148" H 5100 4926 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5100 4625 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 4800 50  0001 C CNN
+	1    5100 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW8
+U 1 1 608860C8
+P 4800 4650
+F 0 "SW8" H 4800 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 4814 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 4650 50  0001 C CNN
+F 3 "" H 4800 4650 50  0000 C CNN
+	1    4800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 608860CE
+P 5100 5350
+F 0 "D8" H 5100 5567 50  0000 C CNN
+F 1 "1N4148" H 5100 5476 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5100 5175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5100 5350 50  0001 C CNN
+	1    5100 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW9
+U 1 1 608860D4
+P 4800 5200
+F 0 "SW9" H 4800 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 5364 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 5200 50  0001 C CNN
+F 3 "" H 4800 5200 50  0000 C CNN
+	1    4800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D15
+U 1 1 608860DA
+P 5900 4800
+F 0 "D15" H 5900 5017 50  0000 C CNN
+F 1 "1N4148" H 5900 4926 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5900 4625 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5900 4800 50  0001 C CNN
+	1    5900 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW16
+U 1 1 608860E0
+P 5600 4650
+F 0 "SW16" H 5600 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 4814 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5600 4650 50  0001 C CNN
+F 3 "" H 5600 4650 50  0000 C CNN
+	1    5600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D16
+U 1 1 608860E6
+P 5900 5350
+F 0 "D16" H 5900 5567 50  0000 C CNN
+F 1 "1N4148" H 5900 5476 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 5900 5175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5900 5350 50  0001 C CNN
+	1    5900 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW17
+U 1 1 608860EC
+P 5600 5200
+F 0 "SW17" H 5600 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 5364 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5600 5200 50  0001 C CNN
+F 3 "" H 5600 5200 50  0000 C CNN
+	1    5600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D23
+U 1 1 608860F2
+P 6700 4800
+F 0 "D23" H 6700 5017 50  0000 C CNN
+F 1 "1N4148" H 6700 4926 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 6700 4625 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6700 4800 50  0001 C CNN
+	1    6700 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW24
+U 1 1 608860F8
+P 6400 4650
+F 0 "SW24" H 6400 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 4814 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6400 4650 50  0001 C CNN
+F 3 "" H 6400 4650 50  0000 C CNN
+	1    6400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D24
+U 1 1 608860FE
+P 6700 5350
+F 0 "D24" H 6700 5567 50  0000 C CNN
+F 1 "1N4148" H 6700 5476 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 6700 5175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6700 5350 50  0001 C CNN
+	1    6700 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW25
+U 1 1 60886104
+P 6400 5200
+F 0 "SW25" H 6400 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 5364 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6400 5200 50  0001 C CNN
+F 3 "" H 6400 5200 50  0000 C CNN
+	1    6400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D31
+U 1 1 6088610A
+P 7500 4800
+F 0 "D31" H 7500 5017 50  0000 C CNN
+F 1 "1N4148" H 7500 4926 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 7500 4625 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 4800 50  0001 C CNN
+	1    7500 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW32
+U 1 1 60886110
+P 7200 4650
+F 0 "SW32" H 7200 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 7200 4814 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7200 4650 50  0001 C CNN
+F 3 "" H 7200 4650 50  0000 C CNN
+	1    7200 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D32
+U 1 1 60886116
+P 7500 5350
+F 0 "D32" H 7500 5567 50  0000 C CNN
+F 1 "1N4148" H 7500 5476 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 7500 5175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 5350 50  0001 C CNN
+	1    7500 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW33
+U 1 1 6088611C
+P 7200 5200
+F 0 "SW33" H 7200 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 7200 5364 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7200 5200 50  0001 C CNN
+F 3 "" H 7200 5200 50  0000 C CNN
+	1    7200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D39
+U 1 1 60886122
+P 8300 4800
+F 0 "D39" H 8300 5017 50  0000 C CNN
+F 1 "1N4148" H 8300 4926 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 8300 4625 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 4800 50  0001 C CNN
+	1    8300 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW40
+U 1 1 60886128
+P 8000 4650
+F 0 "SW40" H 8000 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 4814 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8000 4650 50  0001 C CNN
+F 3 "" H 8000 4650 50  0000 C CNN
+	1    8000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D40
+U 1 1 6088612E
+P 8300 5350
+F 0 "D40" H 8300 5567 50  0000 C CNN
+F 1 "1N4148" H 8300 5476 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 8300 5175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8300 5350 50  0001 C CNN
+	1    8300 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW41
+U 1 1 60886134
+P 8000 5200
+F 0 "SW41" H 8000 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 5364 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8000 5200 50  0001 C CNN
+F 3 "" H 8000 5200 50  0000 C CNN
+	1    8000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D47
+U 1 1 6088613A
+P 9100 4800
+F 0 "D47" H 9100 5017 50  0000 C CNN
+F 1 "1N4148" H 9100 4926 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9100 4625 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9100 4800 50  0001 C CNN
+	1    9100 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW48
+U 1 1 60886140
+P 8800 4650
+F 0 "SW48" H 8800 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 4814 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB" H 8800 4650 50  0001 C CNN
+F 3 "" H 8800 4650 50  0000 C CNN
+	1    8800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D48
+U 1 1 60886146
+P 9100 5350
+F 0 "D48" H 9100 5567 50  0000 C CNN
+F 1 "1N4148" H 9100 5476 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9100 5175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9100 5350 50  0001 C CNN
+	1    9100 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW49
+U 1 1 6088614C
+P 8800 5200
+F 0 "SW49" H 8800 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 8800 5364 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB" H 8800 5200 50  0001 C CNN
+F 3 "" H 8800 5200 50  0000 C CNN
+	1    8800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D55
+U 1 1 60886152
+P 9900 4800
+F 0 "D55" H 9900 5017 50  0000 C CNN
+F 1 "1N4148" H 9900 4926 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9900 4625 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9900 4800 50  0001 C CNN
+	1    9900 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW56
+U 1 1 60886158
+P 9600 4650
+F 0 "SW56" H 9600 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 9600 4814 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 9600 4650 50  0001 C CNN
+F 3 "" H 9600 4650 50  0000 C CNN
+	1    9600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D56
+U 1 1 6088615E
+P 9900 5350
+F 0 "D56" H 9900 5567 50  0000 C CNN
+F 1 "1N4148" H 9900 5476 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 9900 5175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9900 5350 50  0001 C CNN
+	1    9900 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW57
+U 1 1 60886164
+P 9600 5200
+F 0 "SW57" H 9600 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 9600 5364 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 9600 5200 50  0001 C CNN
+F 3 "" H 9600 5200 50  0000 C CNN
+	1    9600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D63
+U 1 1 6088616A
+P 10700 4800
+F 0 "D63" H 10700 5017 50  0000 C CNN
+F 1 "1N4148" H 10700 4926 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 10700 4625 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 4800 50  0001 C CNN
+	1    10700 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW64
+U 1 1 60886170
+P 10400 4650
+F 0 "SW64" H 10400 4905 50  0000 C CNN
+F 1 "SW_PUSH" H 10400 4814 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.75u_PCB" H 10400 4650 50  0001 C CNN
+F 3 "" H 10400 4650 50  0000 C CNN
+	1    10400 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1650 5100 1650
+Wire Wire Line
+	6700 1650 5900 1650
+Connection ~ 5900 1650
+Wire Wire Line
+	10700 1650 9900 1650
+Wire Wire Line
+	9900 1650 9100 1650
+Wire Wire Line
+	9100 1650 8300 1650
+Connection ~ 9900 1650
+Connection ~ 9100 1650
+Wire Wire Line
+	8300 1650 7500 1650
+Connection ~ 8300 1650
+Connection ~ 6700 1650
+Connection ~ 7500 1650
+Wire Wire Line
+	7500 1650 6700 1650
+Wire Wire Line
+	10700 2200 9900 2200
+Connection ~ 5900 2200
+Wire Wire Line
+	5900 2200 5100 2200
+Connection ~ 6700 2200
+Wire Wire Line
+	6700 2200 5900 2200
+Connection ~ 7500 2200
+Wire Wire Line
+	7500 2200 6700 2200
+Connection ~ 8300 2200
+Wire Wire Line
+	8300 2200 7500 2200
+Connection ~ 9100 2200
+Wire Wire Line
+	9100 2200 8300 2200
+Connection ~ 9900 2200
+Wire Wire Line
+	9900 2200 9100 2200
+Wire Wire Line
+	10700 2750 9900 2750
+Connection ~ 5900 2750
+Wire Wire Line
+	5900 2750 5100 2750
+Connection ~ 6700 2750
+Wire Wire Line
+	6700 2750 5900 2750
+Connection ~ 7500 2750
+Wire Wire Line
+	7500 2750 6700 2750
+Connection ~ 8300 2750
+Wire Wire Line
+	8300 2750 7500 2750
+Connection ~ 9100 2750
+Wire Wire Line
+	9100 2750 8300 2750
+Connection ~ 9900 2750
+Wire Wire Line
+	9900 2750 9100 2750
+Wire Wire Line
+	5100 3300 5900 3300
+Connection ~ 5900 3300
+Wire Wire Line
+	5900 3300 6700 3300
+Connection ~ 6700 3300
+Wire Wire Line
+	6700 3300 7500 3300
+Connection ~ 7500 3300
+Wire Wire Line
+	7500 3300 8300 3300
+Connection ~ 8300 3300
+Wire Wire Line
+	8300 3300 9100 3300
+Connection ~ 9100 3300
+Wire Wire Line
+	9100 3300 9900 3300
+Connection ~ 9900 3300
+Wire Wire Line
+	9900 3300 10700 3300
+Wire Wire Line
+	10700 3850 9900 3850
+Connection ~ 5900 3850
+Wire Wire Line
+	5900 3850 5100 3850
+Connection ~ 6700 3850
+Wire Wire Line
+	6700 3850 5900 3850
+Connection ~ 7500 3850
+Wire Wire Line
+	7500 3850 6700 3850
+Connection ~ 8300 3850
+Wire Wire Line
+	8300 3850 7500 3850
+Connection ~ 9100 3850
+Wire Wire Line
+	9100 3850 8300 3850
+Connection ~ 9900 3850
+Wire Wire Line
+	9900 3850 9100 3850
+Wire Wire Line
+	5100 4400 5900 4400
+Connection ~ 5900 4400
+Wire Wire Line
+	5900 4400 6700 4400
+Connection ~ 6700 4400
+Wire Wire Line
+	6700 4400 7500 4400
+Connection ~ 7500 4400
+Wire Wire Line
+	7500 4400 8300 4400
+Connection ~ 8300 4400
+Wire Wire Line
+	8300 4400 9100 4400
+Connection ~ 9100 4400
+Wire Wire Line
+	9100 4400 9900 4400
+Connection ~ 9900 4400
+Wire Wire Line
+	9900 4400 10700 4400
+Wire Wire Line
+	10700 4950 9900 4950
+Connection ~ 5900 4950
+Wire Wire Line
+	5900 4950 5100 4950
+Connection ~ 6700 4950
+Wire Wire Line
+	6700 4950 5900 4950
+Connection ~ 7500 4950
+Wire Wire Line
+	7500 4950 6700 4950
+Connection ~ 8300 4950
+Wire Wire Line
+	8300 4950 7500 4950
+Connection ~ 9100 4950
+Wire Wire Line
+	9100 4950 8300 4950
+Connection ~ 9900 4950
+Wire Wire Line
+	9900 4950 9100 4950
+Wire Wire Line
+	5100 5500 5900 5500
+Connection ~ 5900 5500
+Wire Wire Line
+	5900 5500 6700 5500
+Connection ~ 6700 5500
+Wire Wire Line
+	6700 5500 7500 5500
+Connection ~ 7500 5500
+Wire Wire Line
+	7500 5500 8300 5500
+Connection ~ 8300 5500
+Wire Wire Line
+	8300 5500 9100 5500
+Connection ~ 9100 5500
+Wire Wire Line
+	9100 5500 9900 5500
+Wire Wire Line
+	10100 1350 10100 1900
+Connection ~ 10100 1900
+Wire Wire Line
+	10100 1900 10100 2450
+Connection ~ 10100 2450
+Wire Wire Line
+	10100 2450 10100 3000
+Connection ~ 10100 3000
+Wire Wire Line
+	10100 3000 10100 3550
+Connection ~ 10100 3550
+Wire Wire Line
+	10100 3550 10100 4100
+Connection ~ 10100 4100
+Wire Wire Line
+	10100 4100 10100 4650
+Wire Wire Line
+	9300 1350 9300 1900
+Connection ~ 9300 1900
+Wire Wire Line
+	9300 1900 9300 2450
+Connection ~ 9300 2450
+Wire Wire Line
+	9300 2450 9300 3000
+Connection ~ 9300 3000
+Wire Wire Line
+	9300 3000 9300 3550
+Connection ~ 9300 3550
+Wire Wire Line
+	9300 3550 9300 4100
+Connection ~ 9300 4100
+Wire Wire Line
+	9300 4100 9300 4650
+Connection ~ 9300 4650
+Wire Wire Line
+	9300 4650 9300 5200
+Wire Wire Line
+	8500 5200 8500 4650
+Connection ~ 8500 1900
+Wire Wire Line
+	8500 1900 8500 1350
+Connection ~ 8500 2450
+Wire Wire Line
+	8500 2450 8500 1900
+Connection ~ 8500 3000
+Wire Wire Line
+	8500 3000 8500 2450
+Connection ~ 8500 3550
+Wire Wire Line
+	8500 3550 8500 3000
+Connection ~ 8500 4100
+Wire Wire Line
+	8500 4100 8500 3550
+Connection ~ 8500 4650
+Wire Wire Line
+	8500 4650 8500 4100
+Wire Wire Line
+	7700 1350 7700 1900
+Connection ~ 7700 1900
+Wire Wire Line
+	7700 1900 7700 2450
+Connection ~ 7700 2450
+Wire Wire Line
+	7700 2450 7700 3000
+Connection ~ 7700 3000
+Wire Wire Line
+	7700 3000 7700 3550
+Connection ~ 7700 3550
+Wire Wire Line
+	7700 3550 7700 4100
+Connection ~ 7700 4100
+Wire Wire Line
+	7700 4100 7700 4650
+Connection ~ 7700 4650
+Wire Wire Line
+	7700 4650 7700 5200
+Wire Wire Line
+	6900 5200 6900 4650
+Connection ~ 6900 1900
+Wire Wire Line
+	6900 1900 6900 1350
+Connection ~ 6900 2450
+Wire Wire Line
+	6900 2450 6900 1900
+Connection ~ 6900 3000
+Wire Wire Line
+	6900 3000 6900 2450
+Connection ~ 6900 3550
+Wire Wire Line
+	6900 3550 6900 3000
+Connection ~ 6900 4100
+Wire Wire Line
+	6900 4100 6900 3550
+Connection ~ 6900 4650
+Wire Wire Line
+	6900 4650 6900 4100
+Wire Wire Line
+	6100 1350 6100 1900
+Connection ~ 6100 1900
+Wire Wire Line
+	6100 1900 6100 2450
+Connection ~ 6100 2450
+Wire Wire Line
+	6100 2450 6100 3000
+Connection ~ 6100 3000
+Wire Wire Line
+	6100 3000 6100 3550
+Connection ~ 6100 3550
+Wire Wire Line
+	6100 3550 6100 4100
+Connection ~ 6100 4100
+Wire Wire Line
+	6100 4100 6100 4650
+Connection ~ 6100 4650
+Wire Wire Line
+	6100 4650 6100 5200
+Wire Wire Line
+	5300 5200 5300 4650
+Connection ~ 5300 1900
+Wire Wire Line
+	5300 1900 5300 1350
+Connection ~ 5300 2450
+Wire Wire Line
+	5300 2450 5300 1900
+Connection ~ 5300 3000
+Wire Wire Line
+	5300 3000 5300 2450
+Connection ~ 5300 3550
+Wire Wire Line
+	5300 3550 5300 3000
+Connection ~ 5300 4100
+Wire Wire Line
+	5300 4100 5300 3550
+Connection ~ 5300 4650
+Wire Wire Line
+	5300 4650 5300 4100
+Wire Wire Line
+	4500 1350 4500 1900
+Connection ~ 4500 1900
+Wire Wire Line
+	4500 1900 4500 2450
+Connection ~ 4500 2450
+Wire Wire Line
+	4500 2450 4500 3000
+Connection ~ 4500 3000
+Wire Wire Line
+	4500 3000 4500 3550
+Connection ~ 4500 3550
+Wire Wire Line
+	4500 3550 4500 4100
+Connection ~ 4500 4100
+Wire Wire Line
+	4500 4100 4500 4650
+Connection ~ 4500 4650
+Wire Wire Line
+	4500 4650 4500 5200
+Text GLabel 4300 1650 0    50   Input ~ 0
+ROW1
+Text GLabel 4300 2200 0    50   Input ~ 0
+ROW2
+Text GLabel 4300 2750 0    50   Input ~ 0
+ROW3
+Text GLabel 4300 3300 0    50   Input ~ 0
+ROW4
+Text GLabel 4300 3850 0    50   Input ~ 0
+ROW5
+Text GLabel 4300 4400 0    50   Input ~ 0
+ROW6
+Text GLabel 4300 4950 0    50   Input ~ 0
+ROW7
+Text GLabel 4300 5500 0    50   Input ~ 0
+ROW8
+Wire Wire Line
+	4300 1650 5100 1650
+Connection ~ 5100 1650
+Wire Wire Line
+	5100 2200 4300 2200
+Connection ~ 5100 2200
+Wire Wire Line
+	4300 2750 5100 2750
+Connection ~ 5100 2750
+Wire Wire Line
+	4300 3300 5100 3300
+Connection ~ 5100 3300
+Wire Wire Line
+	4300 3850 5100 3850
+Connection ~ 5100 3850
+Wire Wire Line
+	4300 4400 5100 4400
+Connection ~ 5100 4400
+Wire Wire Line
+	4300 4950 5100 4950
+Connection ~ 5100 4950
+Wire Wire Line
+	4300 5500 5100 5500
+Connection ~ 5100 5500
+Text GLabel 4500 1000 1    50   Input ~ 0
+COL1
+Text GLabel 5300 1000 1    50   Input ~ 0
+COL2
+Text GLabel 6100 1000 1    50   Input ~ 0
+COL3
+Text GLabel 6900 1000 1    50   Input ~ 0
+COL4
+Text GLabel 7700 1000 1    50   Input ~ 0
+COL5
+Text GLabel 8500 1000 1    50   Input ~ 0
+COL6
+Text GLabel 9300 1000 1    50   Input ~ 0
+COL7
+Text GLabel 10100 1000 1    50   Input ~ 0
+COL8
+Wire Wire Line
+	4500 1000 4500 1350
+Connection ~ 4500 1350
+Wire Wire Line
+	5300 1000 5300 1350
+Connection ~ 5300 1350
+Wire Wire Line
+	6100 1000 6100 1350
+Connection ~ 6100 1350
+Wire Wire Line
+	6900 1000 6900 1350
+Connection ~ 6900 1350
+Wire Wire Line
+	7700 1000 7700 1350
+Connection ~ 7700 1350
+Wire Wire Line
+	8500 1000 8500 1350
+Connection ~ 8500 1350
+Wire Wire Line
+	9300 1000 9300 1350
+Connection ~ 9300 1350
+Wire Wire Line
+	10100 1000 10100 1350
+Connection ~ 10100 1350
+$Comp
+L kbd:OLED OL1
+U 1 1 60BC24F0
+P 2150 4150
+F 0 "OL1" H 2778 4219 51  0000 L CNN
+F 1 "OLED" H 2778 4129 47  0000 L CNN
+F 2 "kbd:OLED_v2" H 2150 4250 60  0001 C CNN
+F 3 "" H 2150 4250 60  0001 C CNN
+	1    2150 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 3900 0    50   Input ~ 0
+SDA
+Text GLabel 2850 1450 2    50   Input ~ 0
+SDA
+Text GLabel 2850 1550 2    50   Input ~ 0
+SCL
+Text GLabel 1400 4050 0    50   Input ~ 0
+SCL
+Text GLabel 2450 2950 2    50   Input ~ 0
+RST
+Text GLabel 1450 1250 0    50   Input ~ 0
+RST
+Text GLabel 1450 1450 0    50   Input ~ 0
+ROW1
+Text GLabel 1450 1550 0    50   Input ~ 0
+ROW2
+Text GLabel 1450 1650 0    50   Input ~ 0
+ROW3
+Text GLabel 1450 1750 0    50   Input ~ 0
+ROW4
+Text GLabel 1450 1850 0    50   Input ~ 0
+ROW5
+Text GLabel 1450 1950 0    50   Input ~ 0
+ROW6
+Text GLabel 1450 2050 0    50   Input ~ 0
+ROW7
+Text GLabel 1450 2150 0    50   Input ~ 0
+ROW8
+Text GLabel 2850 1050 2    50   Input ~ 0
+COL1
+Text GLabel 2850 1150 2    50   Input ~ 0
+COL2
+Text GLabel 2850 1650 2    50   Input ~ 0
+COL3
+Text GLabel 2850 1750 2    50   Input ~ 0
+COL4
+Text GLabel 2850 1850 2    50   Input ~ 0
+COL5
+Text GLabel 2850 1950 2    50   Input ~ 0
+COL6
+Text GLabel 2850 2050 2    50   Input ~ 0
+COL7
+Text GLabel 2850 2150 2    50   Input ~ 0
+COL8
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 60CF6A38
+P 1600 5050
+F 0 "#FLG01" H 1600 5125 50  0001 C CNN
+F 1 "PWR_FLAG" H 1600 5223 50  0000 C CNN
+F 2 "" H 1600 5050 50  0001 C CNN
+F 3 "~" H 1600 5050 50  0001 C CNN
+	1    1600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 60CF98AC
+P 2000 5050
+F 0 "#FLG02" H 2000 5125 50  0001 C CNN
+F 1 "PWR_FLAG" H 2000 5223 50  0000 C CNN
+F 2 "" H 2000 5050 50  0001 C CNN
+F 3 "~" H 2000 5050 50  0001 C CNN
+	1    2000 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 60D45EE4
+P 1600 5050
+F 0 "#PWR05" H 1600 4800 50  0001 C CNN
+F 1 "GND" H 1605 4877 50  0000 C CNN
+F 2 "" H 1600 5050 50  0001 C CNN
+F 3 "" H 1600 5050 50  0001 C CNN
+	1    1600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 60D48959
+P 1100 4200
+F 0 "#PWR02" H 1100 4050 50  0001 C CNN
+F 1 "VCC" H 1115 4373 50  0000 C CNN
+F 2 "" H 1100 4200 50  0001 C CNN
+F 3 "" H 1100 4200 50  0001 C CNN
+	1    1100 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4200 1400 4200
+$Comp
+L power:GND #PWR03
+U 1 1 60D4F63C
+P 1100 4350
+F 0 "#PWR03" H 1100 4100 50  0001 C CNN
+F 1 "GND" H 1105 4177 50  0000 C CNN
+F 2 "" H 1100 4350 50  0001 C CNN
+F 3 "" H 1100 4350 50  0001 C CNN
+	1    1100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4350 1400 4350
+$Comp
+L power:GND #PWR08
+U 1 1 60D56EE6
+P 3400 1350
+F 0 "#PWR08" H 3400 1100 50  0001 C CNN
+F 1 "GND" H 3405 1177 50  0000 C CNN
+F 2 "" H 3400 1350 50  0001 C CNN
+F 3 "" H 3400 1350 50  0001 C CNN
+	1    3400 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1250 2850 1350
+Wire Wire Line
+	2850 1350 3400 1350
+Connection ~ 2850 1350
+$Comp
+L power:GND #PWR04
+U 1 1 60D656C3
+P 1150 1150
+F 0 "#PWR04" H 1150 900 50  0001 C CNN
+F 1 "GND" H 1155 977 50  0000 C CNN
+F 2 "" H 1150 1150 50  0001 C CNN
+F 3 "" H 1150 1150 50  0001 C CNN
+	1    1150 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1150 1450 1150
+$Comp
+L power:VCC #PWR01
+U 1 1 60D6E541
+P 950 900
+F 0 "#PWR01" H 950 750 50  0001 C CNN
+F 1 "VCC" H 965 1073 50  0000 C CNN
+F 2 "" H 950 900 50  0001 C CNN
+F 3 "" H 950 900 50  0001 C CNN
+	1    950  900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1350 950  1350
+$Comp
+L power:GND #PWR06
+U 1 1 60E5E199
+P 1750 3050
+F 0 "#PWR06" H 1750 2800 50  0001 C CNN
+F 1 "GND" H 1755 2877 50  0000 C CNN
+F 2 "" H 1750 3050 50  0001 C CNN
+F 3 "" H 1750 3050 50  0001 C CNN
+	1    1750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3050 1750 2950
+Wire Wire Line
+	1750 2950 1850 2950
+$Comp
+L power:VCC #PWR07
+U 1 1 60D46877
+P 2000 5050
+F 0 "#PWR07" H 2000 4900 50  0001 C CNN
+F 1 "VCC" H 2015 5223 50  0000 C CNN
+F 2 "" H 2000 5050 50  0001 C CNN
+F 3 "" H 2000 5050 50  0001 C CNN
+	1    2000 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  900  950  1350
+NoConn ~ 1450 1050
+$Comp
+L kbd:SW_PUSH SW65
+U 1 1 60F6A46D
+P 10400 5200
+F 0 "SW65" H 10400 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 10400 5364 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.25u_PCB" H 10400 5200 50  0001 C CNN
+F 3 "" H 10400 5200 50  0000 C CNN
+	1    10400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D64
+U 1 1 60F6B4CE
+P 10700 5350
+F 0 "D64" H 10700 5567 50  0000 C CNN
+F 1 "1N4148" H 10700 5476 50  0000 C CNN
+F 2 "kbd:D3_TH_SMD_v2" H 10700 5175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 5350 50  0001 C CNN
+	1    10700 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 4650 10100 5200
+Connection ~ 10100 4650
+Wire Wire Line
+	10700 5500 9900 5500
+Connection ~ 9900 5500
+$EndSCHEMATC

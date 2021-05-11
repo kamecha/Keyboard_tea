@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name kbd)(type KiCad)(uri /home/kamecha/workspace/kicad_practice/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri /home/kamecha/workspace/kicad_practice/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name usagi)(type KiCad)(uri /home/kamecha/workspace/kicad_practice/usagi.kicad)(options "")(descr ""))
+  (lib (name tea)(type KiCad)(uri ${KIPRJMOD}/tea.pretty)(options "")(descr ""))
+)
